@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./moonlit-lake-with-stars-reflection_9975-33178.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.oral {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 80px;
+    font-size: 18px;
+    margin-top: 29px;
+}   
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out ;   
+    cursor: pointer;
+}
+.oral li a:hover{
+    color: aqua;
+}
+.dearch{
+    width: 330px;
+    margin-top: 4px;
+    float: inline-end;
+    margin-right: 20px ;
+}
+.srch{
+    font-family:  'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 12px;
+    border-right: none;
+    float: left; 
+    font-size: 14px;
+    /* padding: 5px; */
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.bnt{
+    width: 100px;
+    height: 40px;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    /* border-bottom-left-radius: 5px; */
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.bnt a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.bnt :focus{
+    outline: none;
+}
+.srch :focus{
+    outline: none;
+}
+.nontent h1{
+    position: absolute;
+    margin-top: 160px ;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    font-size: 46px;
+    font-family: sans-serif;
+    
+}
+.nontent{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.nontent .prc{
+    padding-top: 340px;
+    padding-left: 22px;
+    width: 60%;
+    /* padding-bottom: 25px; */
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.nontent .bm{
+    width: 180px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+    transition: .3s ease;
+    margin-left: 50px;
+}
+.bm:hover{
+    background-color: #fff;
+}
+.nontent span{
+            color: #ff7200;
+            font-size:52px ;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top:130px;
+    padding: 25px;
+    border-radius: 10px;
+    left: 870px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.bb{
+    background-color: #ff7200;
+    width: 230px;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+.bb:hover{
+    background-color: #fff;
+    color: #000;
+}
